@@ -1,0 +1,10 @@
+We tested if using 1000 bootsrap iterations changes the results.
+
+First, we computed 1000 bootstrap for an every gene tree (subm.sh,
+tree1k.sh).
+
+Then we computed bootstrap support using these 1000 trees (combine.ds)
+and finally exported bootstrap values (export_bootstrap_values.py) and
+analyzed with comp.R.
+
+The plot is in bootstrap_100_vs_1k.pdf.
