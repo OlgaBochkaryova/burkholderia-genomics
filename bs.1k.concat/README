@@ -1,0 +1,4 @@
+Concatenated tree with 1k bootstrap vs 100 bootstrap.
+- bsplot.pdf comparison between old and new bootstrap support values.
+- trees*.pdf different visualizations of trees side by side.
+- RAxML_bipartitions.bipart tree with new support values.
