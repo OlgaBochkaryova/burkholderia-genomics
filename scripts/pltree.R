@@ -101,6 +101,7 @@ pdf('bs_tree_vis.pdf', width=10, height=6)
 plot.phylo(bs.tr.c, type='cladogram',  edge.width=ew, edge.color=col, show.tip.label=F)
 edgelabels(el, frame='none')
 nodelabels(nlab, frame='none', adj=c(1,0.5), col='brown')
+add.scale.bar()
 dev.off()
 
 pdf('bs_tree_vis_labels.pdf', width=10, height=30)
@@ -109,6 +110,7 @@ bs.tr.c.tip.labels$tip.label <- tip.names[bs.tr.c.tip.labels$tip.label]
 plot.phylo(bs.tr.c.tip.labels, type='cladogram',  edge.width=ew, edge.color=col)
 edgelabels(el, frame='none')
 nodelabels(nlab, frame='none', adj=c(1,0.5), col='brown')
+add.scale.bar()
 dev.off()
 
 
